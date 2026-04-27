@@ -10,16 +10,16 @@ All stochastic results use the global seed `rng(42)`, which is set ONCE at the t
 
 | Script | Description | Figures produced |
 |---|---|---|
-| `Fig5_milton_simu.m` | base sim, reproduces Milton et al. Fig 5(c,d) | Fig 2 (O1) `fig_reproduction.png` |
+| `Fig5_milton_simu.m` | base sim, reproduces Milton et al. Fig 5(c,d) | Fig 2 (O1)  |
 | `sensitivity_data.m` | base script for one IC sensitivity run | (called by `compute_sensitivity.m`) |
-| `compute_sensitivity.m` | drives `sensitivity_data.m`, computes lambda | Fig 3 (O2) `fig_traj.png`<br>Fig 4 (O2) `fig_phase.png` |
+| `compute_sensitivity.m` | drives `sensitivity_data.m`, computes lambda | Fig 3 (O2) <br>Fig 4 (O2)  |
 | `deadzone_IC.m` | base script for one dead-zone run | (called by `compute_deadzone.m`) |
-| `compute_deadzone.m` | drives `deadzone_IC.m`, sweeps Pi in [0.5, 2.0] | Fig 5 (O3) `deadzone.png`<br>Fig 6 (O3) `deadzone_sweep.png`<br>Fig 7 (O3) `deadzone_sweepb.png` |
+| `compute_deadzone.m` | drives `deadzone_IC.m`, sweeps Pi in [0.5, 2.0] | Fig 5 (O3) <br>Fig 6 (O3) <br>Fig 7 (O3)  |
 | `noise_IC.m` | base script for one stochastic run | (called by `compute_noiseIC.m`, `noise_DZ2_run.m`, `visualize_noise.m`, `noiseDZ2plot.m`) |
 | `compute_noiseIC.m` | Monte Carlo sweep, Pi = 0.8 deg, N = 1000 | (no figures; produces `noise_IC.mat`) |
 | `noise_DZ2_run.m` | Monte Carlo sweep, Pi = 2.0 deg, N = 1000 | (no figures; produces `noise_DZ2.mat`) |
-| `visualize_noise.m` | plotting script for the Pi = 0.8 deg sweep | Fig 8 (O4) `fig_noise_early.png`<br>Fig 9 (O4) `fig_noise_bt.png`<br>Fig 10 (O4) `fig_noise_traj.png`<br>Fig 11 (O4) `fig_noise_psd.png` |
-| `noiseDZ2plot.m` | plotting script for the combined comparison | Fig 12 (O3+O4) `fig_combined_bt.png`<br>Fig 13 (O3+O4) `fig_combined_traj.png` |
+| `visualize_noise.m` | plotting script for the Pi = 0.8 deg sweep | Fig 8 (O4) <br>Fig 9 (O4) <br>Fig 10 (O4) <br>Fig 11 (O4)  |
+| `noiseDZ2plot.m` | plotting script for the combined comparison | Fig 12 (O3+O4) <br>Fig 13 (O3+O4) `fig_combined_traj.png` |
 
 ## Saved data (.mat)
 
