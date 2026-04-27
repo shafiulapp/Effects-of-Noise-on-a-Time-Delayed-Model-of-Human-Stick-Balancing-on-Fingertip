@@ -1,9 +1,8 @@
 # Effects of Noise on a Time-Delayed Model of Human Stick Balancing
 
-**Author:** Md Shafiul Alom Khan
-**Course:** EBME 419 (Spring 2026)
 
-This folder contains the MATLAB code used to produce every figure in the report (`main.tex`). The simulation is a pendulum-cart model with a time delay of `tau = 0.23 s`, predictor feedback control, a sensory dead zone `Pi`, and optionally Gaussian motor noise on the fingertip velocity. The base script `Fig5_milton_simu.m` was provided by Milton et al. (*J. R. Soc. Interface*, 2016); all other scripts in this folder are extensions written for this project.
+
+This folder contains the MATLAB code used to produce every figure in the report . The simulation is a pendulum-cart model with a time delay of `tau = 0.23 s`, predictor feedback control, a sensory dead zone `Pi`, and optionally Gaussian motor noise on the fingertip velocity. The base script `Fig5_milton_simu.m` was provided by Milton et al. (*J. R. Soc. Interface*, 2016); all other scripts in this folder are extensions written for this project.
 
 All stochastic results use the global seed `rng(42)`, which is set ONCE at the top of `compute_noiseIC.m` and `noise_DZ2_run.m`.
 
