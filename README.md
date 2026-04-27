@@ -19,7 +19,7 @@ All stochastic results use the global seed `rng(42)`, which is set ONCE at the t
 | `compute_noiseIC.m` | Monte Carlo sweep, Pi = 0.8 deg, N = 1000 | (no figures; produces `noise_IC.mat`) |
 | `noise_DZ2_run.m` | Monte Carlo sweep, Pi = 2.0 deg, N = 1000 | (no figures; produces `noise_DZ2.mat`) |
 | `visualize_noise.m` | plotting script for the Pi = 0.8 deg sweep | Fig 8 (O4) <br>Fig 9 (O4) <br>Fig 10 (O4) <br>Fig 11 (O4)  |
-| `noiseDZ2plot.m` | plotting script for the combined comparison | Fig 12 (O3+O4) <br>Fig 13 (O3+O4) `fig_combined_traj.png` |
+| `noiseDZ2plot.m` | plotting script for the combined comparison | Fig 12 (O3+O4) <br>Fig 13 (O3+O4) |
 
 ## Saved data (.mat)
 
